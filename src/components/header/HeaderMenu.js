@@ -37,6 +37,11 @@ const HeaderMenu = () => {
              <h1>{menu[2]?.title}</h1>
             </Link>
           </li>
+          <li className={router.pathname == "/projet" ? styles.active : ""}>
+            <Link href="/projet">
+             <h1>Projets</h1>
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

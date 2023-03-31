@@ -1,13 +1,9 @@
 .header_main {
-    height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent;
+    background-color: #161B22;
     width: 100%;
-
-    @media screen and (max-width: 950px) {
-        height: 3rem;
-    }
+    padding: 20px;
 }
     

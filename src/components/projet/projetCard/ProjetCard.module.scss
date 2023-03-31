@@ -1,0 +1,55 @@
+.repo__card {
+    padding-top: 10px;
+    width: 28%;
+    height: 160px;
+    margin:10px;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 8px;
+    background-color: #161B22;
+    .repo__thumbnail {
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    h2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+        color: white;
+        text-overflow: ellipsis;
+    }
+    h6 {
+        color: #5B636D;
+    }
+    .price {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .btn__group {
+        button {
+            margin-top: 10px;
+        }
+    }
+}
+
+.icon {
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin: 7px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.language {
+    display: flex;
+    align-items: left;
+    flex-wrap: wrap;
+}
