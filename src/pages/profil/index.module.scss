@@ -1,0 +1,20 @@
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        width: 100%;
+    }
+}
+
+.form {
+    background-color: #1A1B1E;
+    padding: 16px;
+    width: 1000px;
+    height: 100;
+    margin: 0 auto;
+}
+
+.title {
+    margin-bottom: 20px;
+}
