@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Titlepage from "../../components/titlePage/TitlePage";
 import wordpressService from "../../services/wordpress.service";
 import style from "./index.module.scss";
+import { IconFileDownload } from '@tabler/icons-react';
 const Index = () => {
     const [profil, setProfil] = useState({});
 
@@ -19,6 +20,8 @@ const Index = () => {
         <div className={style.form}>
             <div className={style.title}>
                 <Titlepage title="Mon CV" />
+                <a href="./CVThomasPOMART.pdf" download><IconFileDownload/></a>
+
             </div>
             <div className={style.img}>
                 <img

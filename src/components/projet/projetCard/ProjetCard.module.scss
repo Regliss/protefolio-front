@@ -38,18 +38,27 @@
 .icon {
     border-radius: 50%;
     border: 1px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
     width: 25px;
     height: 25px;
     margin: 7px;
     background-color: white;
-    margin-bottom: 10px;
 }
 
 .language {
     display: flex;
     align-items: left;
     flex-wrap: wrap;
+}
+
+.divIcon{
+    display: flex;
+    align-items: center;
+}
+
+.icon2 {
+    padding-left: 20px;
+    padding-right: 10px;
 }
